@@ -13,8 +13,8 @@ def line(katz_deli)
         i +=  1
       end
     end
-    return str_line
   end
+  return str_line
 end
 
 def take_a_number(katz_deli, name)
@@ -29,4 +29,5 @@ def now_serving(katz_deli)
   else
     cust_removed = katz_deli.shift
     puts "Currently serving #{cust_removed}."
+  end
 end
