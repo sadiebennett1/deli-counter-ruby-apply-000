@@ -13,9 +13,8 @@ def line(katz_deli)
         i +=  1
       end
     end
-    return str_line
+    puts str_line
   end
-
 end
 
 def take_a_number(katz_deli, name)
